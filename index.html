@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta charset="UTF-8">
@@ -18,70 +18,75 @@
 
 <body>
 	<div class="wrapper">
-		<div class="container">
-			<header class="header row">
-				<div class="col-2">
-					<div class="header__logo">
-						<img src="img/header__logo.svg" alt="logo">
+		<header class="header">
+			<div class="container">
+				<div class="header__bar">
+					<div class="col-2">
+						<a href="#" class="header__logo">
+							<img src="img/header__logo.svg" alt="Logo">
+						</a>
+					</div>
+					<div class="col-6 ">
+						<nav class="header__menu">
+							<a href="#" class="menu__link">Услуги</a>
+							<a href="#" class="menu__link">Врачи</a>
+							<a href="#" class="menu__link">Отзывы</a>
+							<a href="#" class="menu__link">Клиники</a>
+							<a href="#" class="menu__link">Контакты</a>
+							<a href="#" class="menu__link">Запись на прием</a>
+							<a href="#" class="menu__link">Личный кабинет</a>
+
+						</nav>
+					</div>
+					<div class="col-4 ">
+						<div class="header__buttons">
+							<div class="header__appointment button">
+								<a href="#">Запись на прием</a>
+							</div>
+							<div class="header__account button">
+								<a href="#">Личный кабинет</a>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="col-5">
-					<nav class="navbar navbar-expand-lg header__menu">
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
-							aria-controls="navbarContent" aria-expanded="false"></button>
-						<a href="" class="menu__link">Услуги</a>
-						<a href="" class="menu__link">Врачи</a>
-						<a href="" class="menu__link">Отзывы</a>
-						<a href="" class="menu__link">Клиники</a>
-						<a href="" class="menu__link">Контакты</a>
-					</nav>
-				</div>
-				<div class="col-5">
-					<div class="header__bottons">
-						<div class="appointment__button">
-							<a href="" class="appointment__button__link">Запись на прием</a>
-						</div>
-						<div class="account__button">
-							<a href="" class="account__button__link">Личный кабинет</a>
-						</div>
-					</div>
-				</div>
-			</header>
-		</div>
-
-
+			</div>
+		</header>
 		<main class="main">
-			<div class="container main_b">
+			<div class="container">
 				<div class="main__logo row">
 					<div class="col-4">
-						<img src="img/main__logo.png" alt="main__logo">
+						<div class="main__logo__img">
+							<img src="img/main__logo.svg" alt="Logo">
+						</div>
 					</div>
 				</div>
 				<div class="main__desc row">
 					<div class="col-8">
-						<span class="main__desc__text">
-							Врачи более, чем 15 специализаций
-							по самым доступным ценам
+						<div class="main__desc__text">
+							Врачи более, чем 15 специализаций<br>
+							по самым доступным ценам<br>
 							в Москве и области
-						</span>
+						</div>
 					</div>
 				</div>
 				<div class="main__buttons row">
-					<div class="main__buttons__list col-7">
-						<div class="main__appointment">
-							<a class="main__appointment__link">Записться на прием</a>
-						</div>
-						<div class="main__learn">
-							<a class="main__learn__link">Узнать больше</a>
+					<div class="col-7">
+						<div class="main__buttons__block">
+							<div class="main__appointment button">
+								<a href="# class= main__appointment__link">Записться на прием</a>
+							</div>
+							<div class="main__learn button">
+								<a href="#" class="main__learn__link ">Узнать больше</a>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</main>
-
 		<footer></footer>
 	</div>
 	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 
 </html>
